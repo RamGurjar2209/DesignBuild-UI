@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.green-part{
+    width: 55%;
+    height: 657px;
+    background-color: rgb(1, 46, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.turner{
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+
+.turner p{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.design{
+    width: 95%;
+    height: 300px;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.design h1{
+    font-size: 155px;
+    line-height: 130px;
+    color: white;
+}
+
+.alpinist{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.the-alpinist{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.the-alpinist p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.al-img{
+    width: 100%;
+    height: 200px;
+    background-image: url(./24e7eb21-0da8-4db0-bfb5-3c4b72a4d241-Terschelling-house-netherlands.jpg);
+    background-size: cover;
+}
+
+.zucchi{
+    width: 40%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.zucchi p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.zu-img{
+    width: 100%;
+    height: 100px;
+    background-image: url('./wood-house.png');
+    background-size: cover;
+}
+
+.white-part{
+    width: 45%;
+    height: 657px;
+}
+
+.white-img{
+    width: 100%;
+    height: 325px;
+    background-image:url('./100_0755.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu img{
+    width: 40px;
+}
+
+.boscomb{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.of-1{
+    font-size: 15px;
+}
+
+.arrow{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow p{
+    width: 130px;
+    height: 50px;
+    padding-top: 15px;
+    border-right: 1px solid black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.arrow-container img{
+    width: 30px;
+}
+
+.white-para{
+    width: 100%;
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.norm-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.res-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    display: none;
+}
+
+.white-para button img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.white-para button{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 290px;
+    margin-top: 20px;
+}
+
+        /* RESPONSIVE */
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        height: 1315px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .green-part{
+        width: 100%;
+    }
+
+    .white-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .white-img{
+        width: 100%;
+    }
+
+    .boscomb{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .white-para{
+        width: 95%;
+    }
+
+    .norm-para{
+        display: none;
+    }
+
+    .res-para{
+        display: block;
+    }
+
+    .white-para button{
+        margin-right: 600px;
+    }
+}
